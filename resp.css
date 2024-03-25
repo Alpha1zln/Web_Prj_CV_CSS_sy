@@ -13,4 +13,8 @@
     ul li {
         font-size: 14px;
     }
+
+     ul {
+        padding: 10px auto; /* Adjust padding for mobile */
+    }
 }

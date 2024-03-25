@@ -1,5 +1,6 @@
 /* Responsive styles */
 @media only screen and (max-width: 767px) {
+
     body {
         font-family: Arial, sans-serif;
         margin: 2px auto;
@@ -10,7 +11,7 @@
     .container {
         max-width: 100%;
         margin: 2px auto;
-        padding: 20px auto;
+        padding: 2px auto;
     }
 
     .header h1 {
@@ -19,10 +20,10 @@
 
     ul li {
         font-size: 14px;
-        padding: 10px auto; 
+        padding: 2px auto; 
     }
 
-     ul {
-        padding: 10px auto; /* Adjust padding for mobile */
+    ul {
+        padding: 2px auto; /* Adjust padding for mobile */
     }
 }

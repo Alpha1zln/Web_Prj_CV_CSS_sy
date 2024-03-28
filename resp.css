@@ -1,47 +1,24 @@
-/* Responsive styles */
+/* Responsive styles for mobile */
 @media only screen and (max-width: 767px) {
-
     body {
-        font-family: Arial, sans-serif;
-        margin: 2px auto;
-        padding: 2px auto; 
-        background-color: #f2f2f2;
+        margin: 5px;
+        padding: 5px;
     }
 
     .container {
-        max-width: 200px auto;
-        margin: 2px auto;
-        padding: 2px auto;
+        max-width: 100%;
+        border-radius: 0;
     }
 
     .header h1 {
         font-size: 24px;
     }
 
-    h3 {
-        color: #333;
-        margin-bottom: 5px;
-        margin-top: 30px;
-        text-decoration: underline;
-    }
-
     ul li {
         font-size: 14px;
-        padding: 2px auto; 
     }
 
     ul {
-        padding: 2px auto; /* Adjust padding for mobile */
-    }
-
-    table {
-        border: none; /* Remove border for better mobile experience */
-    }
-    
-    td {
-        display: block; /* Convert table cells to block elements for stacking */
-        border: none; /* Remove borders between table cells */
-        border-bottom: 1px solid #E88741; /* Add bottom border for cell separation */
-        padding: 10px 0; /* Adjust padding for better spacing */
+        padding-left: 20px; /* Adjust left padding for mobile */
     }
 }
